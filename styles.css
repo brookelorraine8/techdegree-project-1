@@ -11,21 +11,30 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
+.exp-container{
+  margin: 0 20% 50px 20%;
+  padding-bottom: 25px;
+  max-width: 1000px;
+  text-align:left;
+  border-bottom: #c9c9c9 2px solid;
+
+}
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #ffffff;
 }
 a:hover {
-  color: #6633ff;
+  color: #999;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #001849;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -57,7 +66,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/los-angeles-2.jpg') no-repeat top center ;
+  background: url('images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -78,14 +87,14 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #001849;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
+  background-color: #001849;
   color: whitesmoke;
 }
 .card {
@@ -99,7 +108,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #A4CABC;
+  border-color: #E86C30;
 }
 
 ul.skills {
@@ -110,15 +119,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #EAB364;
+  background: #001849;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
-/* .skills li:nth-child(odd) {
-  background: #EAB364;
-} */
+.skills li:nth-child(odd) {
+  background: #017F95;
+}
 
 footer {
   width: 100%;
